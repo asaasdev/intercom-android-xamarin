@@ -1,0 +1,13 @@
+﻿<metadata>
+	<attr path="/api/package[@name='io.intercom.uk.co.senab.photoview']/interface[@name='IPhotoView']" name="managedName">IPhotoViewInterface</attr>
+	<remove-node path="/api/package[@name='io.intercom.uk.co.senab.photoview']/class[@name='PhotoView']"/>
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.models']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.squareup.okhttp.internal.http']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.squareup.okhttp.internal']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.squareup.otto']"/>
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.conversation']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson.internal']"/>
+	<remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']"/>
+	<remove-node path="/api/package[@name='io.intercom.okio']"/>
+</metadata>
