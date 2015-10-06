@@ -48,6 +48,8 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\intercom-sdk-base-1.1.7.aar" />
-    <LibraryProjectZip Include="Jars\intercom-sdk-gcm-1.1.7.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <InputJar Include="Jars\intercom-sdk-gcm-1.1.7.aar" />
   </ItemGroup>
 </Project>
