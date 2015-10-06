@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>IntercomForAndroidXamarin.dll</id>
+    <version>1.1.7</version>
+    <authors>meuspedidos</authors>
+    <owners>meuspedidos</owners>
+    <projectUrl>http://github.com/meuspedidos/intercom-android-xamarin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Integrate Intercom into your Android Xamarin application.</description>
+    <releaseNotes>Support Intercom Android version 1.1.7.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Intercom Android Xamarin</tags>
+  </metadata>
+  <files>
+    <file src="bin/*.dll" target="lib\MonoAndroid10" />
+  </files>
+</package>
