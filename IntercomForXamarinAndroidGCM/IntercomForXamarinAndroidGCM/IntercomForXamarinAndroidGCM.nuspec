@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>IntercomForAndroidXamarinGCM.dll</id>
-    <version>1.1.18.1</version>
+    <version>1.1.18.2</version>
     <authors>meuspedidos</authors>
     <owners>meuspedidos</owners>
     <projectUrl>http://github.com/meuspedidos/intercom-android-xamarin</projectUrl>
@@ -13,6 +13,6 @@
     <tags>Intercom Android Xamarin</tags>
   </metadata>
   <files>
-    <file src="bin/Release/*.dll" target="lib\MonoAndroid10" />
+    <file src="bin/Release/*.dll" target="lib/MonoAndroid10" />
   </files>
 </package>
