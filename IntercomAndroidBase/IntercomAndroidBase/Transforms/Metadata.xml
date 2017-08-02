@@ -18,5 +18,8 @@
 	<remove-node path="/api/package[@name='io.intercom.com.squareup.okhttp.internal.http']"/>
 	<remove-node path="/api/package[@name='io.intercom.com.squareup.otto']"/>
 	<remove-node path="/api/package[@name='io.intercom.okio']"/>
-	<remove-node path="/api/package[@name='io.intercom.uk.co.senab.photoview']"/>
+	<remove-node path="/api/package[@name='io.intercom.android.sdk']/class[@name='User']"/>
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']"/>
+	<remove-node path="/api/package[@name='io.intercom.android.sdk.middleware']" />
+	<remove-node path="/api/package[@name='com.intercom.composer.keyboard']/class[@name='KeyboardHelper']" />
 </metadata>

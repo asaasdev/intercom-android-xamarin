@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{2012B2F6-2157-49E0-8065-7332092EEC24}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>IntercomForXamarinAndroidBase</RootNamespace>
+    <RootNamespace>IntercomAndroidBase</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <AssemblyName>IntercomForXamarinAndroidBase</AssemblyName>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <AssemblyName>IntercomAndroidBase</AssemblyName>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <ReleaseVersion>3.1.0</ReleaseVersion>
+    <PackageId>IntercomAndroidBase</PackageId>
+    <PackageVersion>3.1.0</PackageVersion>
+    <Authors>Matheus Souza</Authors>
+    <Description>Integrate Intercom into your Android Xamarin application.</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,6 +56,10 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\intercom-sdk-base-3.0.9.aar" />
+    <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\intercom-sdk-base-3.1.0.aar" />
+  </ItemGroup>
+  <Import Project="..\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets')" />
 </Project>
