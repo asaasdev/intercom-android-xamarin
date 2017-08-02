@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidBase", "IntercomForXamarinAndroidBase\IntercomAndroidBase.csproj", "{2012B2F6-2157-49E0-8065-7332092EEC24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomAndroidBase", "IntercomAndroidBase\IntercomAndroidBase.csproj", "{2012B2F6-2157-49E0-8065-7332092EEC24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomForXamarinAndroidGCM", "..\IntercomForXamarinAndroidGCM\IntercomForXamarinAndroidGCM\IntercomForXamarinAndroidGCM.csproj", "{AC1B0175-38F9-4AE7-9343-AE71EDDE1806}"
 EndProject
