@@ -14,11 +14,11 @@
     <AssemblyName>IntercomAndroidBase</AssemblyName>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
-    <ReleaseVersion>3.1.0</ReleaseVersion>
     <PackageId>IntercomAndroidBase</PackageId>
-    <PackageVersion>3.1.0</PackageVersion>
+    <PackageVersion>3.1.1</PackageVersion>
     <Authors>Matheus Souza</Authors>
     <Description>Integrate Intercom into your Android Xamarin application.</Description>
+    <ReleaseVersion>3.1.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

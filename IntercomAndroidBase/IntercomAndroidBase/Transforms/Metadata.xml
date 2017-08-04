@@ -3,7 +3,6 @@
 	<remove-node path="/api/package[@name='io.intercom.android.sdk.metrics']"/>
 	<remove-node path="/api/package[@name='io.intercom.android.sdk.models']"/>
 	<remove-node path="/api/package[@name='io.intercom.android.sdk.preview']"/>
-	<remove-node path="/api/package[@name='io.intercom.android.sdk.push']"/>
 	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide']"/>
 	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']"/>
 	<remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']"/>
