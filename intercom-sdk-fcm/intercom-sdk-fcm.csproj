@@ -16,7 +16,9 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <PackageId>intercom-sdk-fcm</PackageId>
     <PackageVersion>4.1.6</PackageVersion>
-    <Authors>Intercom, Matheus Souza(Binding to Xamarin)</Authors>
+    <Authors>Matheus Souza</Authors>
+    <PackOnBuild>true</PackOnBuild>
+    <Description>Binding Library from https://github.com/intercom/intercom-android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

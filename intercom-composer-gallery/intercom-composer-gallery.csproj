@@ -17,7 +17,9 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <PackageId>intercom-composer-gallery</PackageId>
     <PackageVersion>1.3.4</PackageVersion>
-    <Authors>Intercom, Matheus Souza(Binding to Xamarin)</Authors>
+    <Authors>Matheus Souza</Authors>
+    <PackOnBuild>true</PackOnBuild>
+    <Description>Binding Library from https://github.com/intercom/intercom-android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
