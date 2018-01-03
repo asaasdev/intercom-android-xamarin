@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[@name='com.intercom.composer.keyboard']/class[@name='KeyboardHelper']"/>
+    <remove-node path="/api/package[@name='com.intercom.composer.animation']/class[@name='HideSendButtonAnimatorListener']"/>
+    <remove-node path="/api/package[@name='com.intercom.composer.animation']/class[@name='ShowSendButtonAnimatorListener']"/>
+    <remove-node path="/api/package[@name='com.intercom.composer.input.empty']/class[@name='EmptyInput']"/>
+    <remove-node path="/api/package[@name='com.intercom.composer.input.iconbar']"/>
+</metadata>
